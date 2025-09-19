@@ -1,0 +1,34 @@
+c:\users\user\documents\visual studio 2013\Projects\GYM MANAGEMENT\GYM MANAGEMENT\bin\Debug\GYM MANAGEMENT.exe.config
+c:\users\user\documents\visual studio 2013\Projects\GYM MANAGEMENT\GYM MANAGEMENT\bin\Debug\GYM MANAGEMENT.exe
+c:\users\user\documents\visual studio 2013\Projects\GYM MANAGEMENT\GYM MANAGEMENT\bin\Debug\GYM MANAGEMENT.pdb
+c:\users\user\documents\visual studio 2013\Projects\GYM MANAGEMENT\GYM MANAGEMENT\bin\Debug\GYM MANAGEMENT.xml
+c:\users\user\documents\visual studio 2013\Projects\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Members.resources
+c:\users\user\documents\visual studio 2013\Projects\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Resources.resources
+c:\users\user\documents\visual studio 2013\Projects\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM MANAGEMENT.vbproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2013\Projects\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM MANAGEMENT.exe
+c:\users\user\documents\visual studio 2013\Projects\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM MANAGEMENT.xml
+c:\users\user\documents\visual studio 2013\Projects\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM MANAGEMENT.pdb
+C:\Users\USER\Documents\Visual Studio 2013\Projects\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Trainers.resources
+C:\Users\USER\Documents\Visual Studio 2013\Projects\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Classes.resources
+C:\Users\USER\Documents\Visual Studio 2013\Projects\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Equipment.resources
+C:\Users\USER\Documents\Visual Studio 2013\Projects\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Login.resources
+C:\Users\USER\Documents\Visual Studio 2013\Projects\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Subscriptions.resources
+C:\Users\USER\Documents\Visual Studio 2013\Projects\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.General.resources
+C:\Users\USER\Documents\Visual Studio 2013\Projects\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Splashscreen.resources
+E:\GYM MANAGEMENT\GYM MANAGEMENT\bin\Debug\GYM MANAGEMENT.exe.config
+E:\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM MANAGEMENT.exe
+E:\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM MANAGEMENT.xml
+E:\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM MANAGEMENT.pdb
+E:\GYM MANAGEMENT\GYM MANAGEMENT\bin\Debug\GYM MANAGEMENT.exe
+E:\GYM MANAGEMENT\GYM MANAGEMENT\bin\Debug\GYM MANAGEMENT.pdb
+E:\GYM MANAGEMENT\GYM MANAGEMENT\bin\Debug\GYM MANAGEMENT.xml
+E:\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Classes.resources
+E:\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Equipment.resources
+E:\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Subscriptions.resources
+E:\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.General.resources
+E:\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Login.resources
+E:\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Members.resources
+E:\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Resources.resources
+E:\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Splashscreen.resources
+E:\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Trainers.resources
+E:\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM MANAGEMENT.vbproj.GenerateResource.Cache
