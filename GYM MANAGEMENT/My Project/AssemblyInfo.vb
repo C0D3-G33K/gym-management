@@ -8,12 +8,12 @@ Imports System.Runtime.InteropServices
 
 ' Review the values of the assembly attributes
 
-<Assembly: AssemblyTitle("GYM MANAGEMENT")> 
-<Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("")> 
-<Assembly: AssemblyProduct("GYM MANAGEMENT")> 
-<Assembly: AssemblyCopyright("Copyright ©  2025")> 
-<Assembly: AssemblyTrademark("")> 
+<Assembly: AssemblyTitle("Gym Management")>
+<Assembly: AssemblyDescription("This software product is protected by the MIT license")>
+<Assembly: AssemblyCompany("Roosevelt Girls High School")>
+<Assembly: AssemblyProduct("Gym Management")>
+<Assembly: AssemblyCopyright("Copyright ©  2025")>
+<Assembly: AssemblyTrademark("L1ZZ13")>
 
 <Assembly: ComVisible(False)>
 

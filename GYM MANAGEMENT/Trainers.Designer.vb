@@ -37,9 +37,10 @@ Partial Class Trainers
         'btnDelete
         '
         Me.btnDelete.Font = New System.Drawing.Font("Microsoft Uighur", 16.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnDelete.Location = New System.Drawing.Point(197, 406)
+        Me.btnDelete.Location = New System.Drawing.Point(148, 330)
+        Me.btnDelete.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(91, 31)
+        Me.btnDelete.Size = New System.Drawing.Size(68, 25)
         Me.btnDelete.TabIndex = 0
         Me.btnDelete.Text = "Delete"
         Me.btnDelete.UseVisualStyleBackColor = True
@@ -47,9 +48,10 @@ Partial Class Trainers
         'btnUpdate
         '
         Me.btnUpdate.Font = New System.Drawing.Font("Microsoft Uighur", 16.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnUpdate.Location = New System.Drawing.Point(341, 403)
+        Me.btnUpdate.Location = New System.Drawing.Point(256, 327)
+        Me.btnUpdate.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(87, 34)
+        Me.btnUpdate.Size = New System.Drawing.Size(65, 28)
         Me.btnUpdate.TabIndex = 1
         Me.btnUpdate.Text = "Update"
         Me.btnUpdate.UseVisualStyleBackColor = True
@@ -57,9 +59,10 @@ Partial Class Trainers
         'btnClear
         '
         Me.btnClear.Font = New System.Drawing.Font("Microsoft Uighur", 16.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClear.Location = New System.Drawing.Point(477, 403)
+        Me.btnClear.Location = New System.Drawing.Point(358, 327)
+        Me.btnClear.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnClear.Name = "btnClear"
-        Me.btnClear.Size = New System.Drawing.Size(75, 34)
+        Me.btnClear.Size = New System.Drawing.Size(56, 28)
         Me.btnClear.TabIndex = 2
         Me.btnClear.Text = "Clear"
         Me.btnClear.UseVisualStyleBackColor = True
@@ -68,9 +71,10 @@ Partial Class Trainers
         '
         Me.lblName.AutoSize = True
         Me.lblName.Font = New System.Drawing.Font("Microsoft Uighur", 16.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblName.Location = New System.Drawing.Point(47, 73)
+        Me.lblName.Location = New System.Drawing.Point(35, 59)
+        Me.lblName.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblName.Name = "lblName"
-        Me.lblName.Size = New System.Drawing.Size(65, 34)
+        Me.lblName.Size = New System.Drawing.Size(52, 29)
         Me.lblName.TabIndex = 3
         Me.lblName.Text = "Name"
         '
@@ -78,9 +82,10 @@ Partial Class Trainers
         '
         Me.lblSpecialty.AutoSize = True
         Me.lblSpecialty.Font = New System.Drawing.Font("Microsoft Uighur", 16.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblSpecialty.Location = New System.Drawing.Point(36, 164)
+        Me.lblSpecialty.Location = New System.Drawing.Point(27, 133)
+        Me.lblSpecialty.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblSpecialty.Name = "lblSpecialty"
-        Me.lblSpecialty.Size = New System.Drawing.Size(93, 34)
+        Me.lblSpecialty.Size = New System.Drawing.Size(74, 29)
         Me.lblSpecialty.TabIndex = 4
         Me.lblSpecialty.Text = "Specialty"
         '
@@ -88,53 +93,58 @@ Partial Class Trainers
         '
         Me.lblContact.AutoSize = True
         Me.lblContact.Font = New System.Drawing.Font("Microsoft Uighur", 16.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblContact.Location = New System.Drawing.Point(42, 249)
+        Me.lblContact.Location = New System.Drawing.Point(32, 202)
+        Me.lblContact.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblContact.Name = "lblContact"
-        Me.lblContact.Size = New System.Drawing.Size(82, 34)
+        Me.lblContact.Size = New System.Drawing.Size(65, 29)
         Me.lblContact.TabIndex = 5
         Me.lblContact.Text = "Contact"
         '
         'txtContact
         '
-        Me.txtContact.Location = New System.Drawing.Point(173, 228)
+        Me.txtContact.Location = New System.Drawing.Point(130, 185)
+        Me.txtContact.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtContact.Multiline = True
         Me.txtContact.Name = "txtContact"
-        Me.txtContact.Size = New System.Drawing.Size(172, 52)
+        Me.txtContact.Size = New System.Drawing.Size(130, 43)
         Me.txtContact.TabIndex = 8
         '
         'txtSpecialty
         '
-        Me.txtSpecialty.Location = New System.Drawing.Point(173, 145)
+        Me.txtSpecialty.Location = New System.Drawing.Point(130, 118)
+        Me.txtSpecialty.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtSpecialty.Multiline = True
         Me.txtSpecialty.Name = "txtSpecialty"
-        Me.txtSpecialty.Size = New System.Drawing.Size(172, 48)
+        Me.txtSpecialty.Size = New System.Drawing.Size(130, 40)
         Me.txtSpecialty.TabIndex = 9
         '
         'btnSave
         '
         Me.btnSave.Font = New System.Drawing.Font("Microsoft Uighur", 16.2!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSave.Location = New System.Drawing.Point(54, 403)
+        Me.btnSave.Location = New System.Drawing.Point(40, 327)
+        Me.btnSave.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnSave.Name = "btnSave"
-        Me.btnSave.Size = New System.Drawing.Size(75, 34)
+        Me.btnSave.Size = New System.Drawing.Size(56, 28)
         Me.btnSave.TabIndex = 10
         Me.btnSave.Text = "Save"
         Me.btnSave.UseVisualStyleBackColor = True
         '
         'txtName
         '
-        Me.txtName.Location = New System.Drawing.Point(173, 55)
+        Me.txtName.Location = New System.Drawing.Point(130, 45)
+        Me.txtName.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.txtName.Multiline = True
         Me.txtName.Name = "txtName"
-        Me.txtName.Size = New System.Drawing.Size(172, 50)
+        Me.txtName.Size = New System.Drawing.Size(130, 41)
         Me.txtName.TabIndex = 11
         '
-        'trainers
+        'Trainers
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.GYM_MANAGEMENT.My.Resources.Resources.p
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1160, 529)
+        Me.ClientSize = New System.Drawing.Size(870, 603)
         Me.Controls.Add(Me.txtName)
         Me.Controls.Add(Me.btnSave)
         Me.Controls.Add(Me.txtSpecialty)
@@ -145,7 +155,8 @@ Partial Class Trainers
         Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.btnUpdate)
         Me.Controls.Add(Me.btnDelete)
-        Me.Name = "trainers"
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Name = "Trainers"
         Me.Text = "Trainers"
         Me.ResumeLayout(False)
         Me.PerformLayout()

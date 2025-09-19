@@ -30,13 +30,19 @@ Partial Class Login
         Me.btnLogin = New System.Windows.Forms.Button()
         Me.lblRole = New System.Windows.Forms.Label()
         Me.cmbRole = New System.Windows.Forms.ComboBox()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.picUser = New System.Windows.Forms.PictureBox()
+        Me.btnClose = New System.Windows.Forms.Button()
+        Me.GroupBox1.SuspendLayout()
+        CType(Me.picUser, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'lblUser
         '
         Me.lblUser.AutoSize = True
-        Me.lblUser.Font = New System.Drawing.Font("Palatino Linotype", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblUser.Location = New System.Drawing.Point(69, 93)
+        Me.lblUser.Font = New System.Drawing.Font("Palatino Linotype", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblUser.Location = New System.Drawing.Point(18, 60)
+        Me.lblUser.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblUser.Name = "lblUser"
         Me.lblUser.Size = New System.Drawing.Size(96, 25)
         Me.lblUser.TabIndex = 0
@@ -45,8 +51,9 @@ Partial Class Login
         'lblPass
         '
         Me.lblPass.AutoSize = True
-        Me.lblPass.Font = New System.Drawing.Font("Palatino Linotype", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblPass.Location = New System.Drawing.Point(69, 168)
+        Me.lblPass.Font = New System.Drawing.Font("Palatino Linotype", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPass.Location = New System.Drawing.Point(18, 120)
+        Me.lblPass.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblPass.Name = "lblPass"
         Me.lblPass.Size = New System.Drawing.Size(96, 25)
         Me.lblPass.TabIndex = 1
@@ -54,46 +61,54 @@ Partial Class Login
         '
         'lblStatus
         '
-        Me.lblStatus.AutoSize = True
-        Me.lblStatus.Location = New System.Drawing.Point(69, 310)
+        Me.lblStatus.BackColor = System.Drawing.Color.Transparent
+        Me.lblStatus.Font = New System.Drawing.Font("Cambria", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblStatus.ForeColor = System.Drawing.Color.Red
+        Me.lblStatus.Location = New System.Drawing.Point(0, 28)
+        Me.lblStatus.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblStatus.Name = "lblStatus"
-        Me.lblStatus.Size = New System.Drawing.Size(40, 17)
+        Me.lblStatus.Size = New System.Drawing.Size(393, 19)
         Me.lblStatus.TabIndex = 2
         Me.lblStatus.Text = "Error"
+        Me.lblStatus.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'txtPassword
         '
-        Me.txtPassword.Font = New System.Drawing.Font("Palatino Linotype", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtPassword.Location = New System.Drawing.Point(290, 168)
+        Me.txtPassword.Font = New System.Drawing.Font("Palatino Linotype", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPassword.Location = New System.Drawing.Point(144, 120)
+        Me.txtPassword.Margin = New System.Windows.Forms.Padding(2)
         Me.txtPassword.Name = "txtPassword"
         Me.txtPassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(94)
-        Me.txtPassword.Size = New System.Drawing.Size(100, 32)
+        Me.txtPassword.Size = New System.Drawing.Size(244, 33)
         Me.txtPassword.TabIndex = 3
         Me.txtPassword.Text = "12"
         '
         'txtUsername
         '
-        Me.txtUsername.Font = New System.Drawing.Font("Palatino Linotype", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtUsername.Location = New System.Drawing.Point(290, 93)
+        Me.txtUsername.Font = New System.Drawing.Font("Palatino Linotype", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtUsername.Location = New System.Drawing.Point(144, 60)
+        Me.txtUsername.Margin = New System.Windows.Forms.Padding(2)
         Me.txtUsername.Name = "txtUsername"
-        Me.txtUsername.Size = New System.Drawing.Size(100, 32)
+        Me.txtUsername.Size = New System.Drawing.Size(244, 33)
         Me.txtUsername.TabIndex = 4
         '
         'btnLogin
         '
-        Me.btnLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnLogin.Location = New System.Drawing.Point(656, 394)
+        Me.btnLogin.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLogin.Location = New System.Drawing.Point(532, 234)
+        Me.btnLogin.Margin = New System.Windows.Forms.Padding(2)
         Me.btnLogin.Name = "btnLogin"
-        Me.btnLogin.Size = New System.Drawing.Size(226, 80)
+        Me.btnLogin.Size = New System.Drawing.Size(141, 44)
         Me.btnLogin.TabIndex = 5
-        Me.btnLogin.Text = "Login"
+        Me.btnLogin.Text = "Log In"
         Me.btnLogin.UseVisualStyleBackColor = True
         '
         'lblRole
         '
         Me.lblRole.AutoSize = True
-        Me.lblRole.Font = New System.Drawing.Font("Palatino Linotype", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblRole.Location = New System.Drawing.Point(78, 241)
+        Me.lblRole.Font = New System.Drawing.Font("Palatino Linotype", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblRole.Location = New System.Drawing.Point(18, 180)
+        Me.lblRole.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblRole.Name = "lblRole"
         Me.lblRole.Size = New System.Drawing.Size(51, 25)
         Me.lblRole.TabIndex = 6
@@ -101,32 +116,73 @@ Partial Class Login
         '
         'cmbRole
         '
-        Me.cmbRole.Font = New System.Drawing.Font("Palatino Linotype", 10.8!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmbRole.Font = New System.Drawing.Font("Palatino Linotype", 14.25!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmbRole.FormattingEnabled = True
-        Me.cmbRole.Location = New System.Drawing.Point(280, 238)
+        Me.cmbRole.Location = New System.Drawing.Point(144, 177)
+        Me.cmbRole.Margin = New System.Windows.Forms.Padding(2)
         Me.cmbRole.Name = "cmbRole"
-        Me.cmbRole.Size = New System.Drawing.Size(121, 32)
+        Me.cmbRole.Size = New System.Drawing.Size(92, 33)
         Me.cmbRole.TabIndex = 7
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.BackgroundImage = Global.GYM_MANAGEMENT.My.Resources.Resources.t
+        Me.GroupBox1.Controls.Add(Me.txtUsername)
+        Me.GroupBox1.Controls.Add(Me.cmbRole)
+        Me.GroupBox1.Controls.Add(Me.lblUser)
+        Me.GroupBox1.Controls.Add(Me.lblRole)
+        Me.GroupBox1.Controls.Add(Me.lblPass)
+        Me.GroupBox1.Controls.Add(Me.lblStatus)
+        Me.GroupBox1.Controls.Add(Me.txtPassword)
+        Me.GroupBox1.Font = New System.Drawing.Font("Script MT Bold", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GroupBox1.Location = New System.Drawing.Point(280, 6)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(398, 225)
+        Me.GroupBox1.TabIndex = 8
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Please provide your credentials"
+        '
+        'picUser
+        '
+        Me.picUser.Image = Global.GYM_MANAGEMENT.My.Resources.Resources.Dummy
+        Me.picUser.Location = New System.Drawing.Point(8, 6)
+        Me.picUser.Name = "picUser"
+        Me.picUser.Size = New System.Drawing.Size(266, 274)
+        Me.picUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.picUser.TabIndex = 9
+        Me.picUser.TabStop = False
+        '
+        'btnClose
+        '
+        Me.btnClose.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnClose.Location = New System.Drawing.Point(387, 234)
+        Me.btnClose.Margin = New System.Windows.Forms.Padding(2)
+        Me.btnClose.Name = "btnClose"
+        Me.btnClose.Size = New System.Drawing.Size(141, 44)
+        Me.btnClose.TabIndex = 10
+        Me.btnClose.Text = "Close"
+        Me.btnClose.UseVisualStyleBackColor = True
         '
         'Login
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = Global.GYM_MANAGEMENT.My.Resources.Resources.t
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.ClientSize = New System.Drawing.Size(1099, 509)
-        Me.Controls.Add(Me.cmbRole)
-        Me.Controls.Add(Me.lblRole)
+        Me.ClientSize = New System.Drawing.Size(685, 289)
+        Me.Controls.Add(Me.btnClose)
+        Me.Controls.Add(Me.picUser)
         Me.Controls.Add(Me.btnLogin)
-        Me.Controls.Add(Me.txtUsername)
-        Me.Controls.Add(Me.txtPassword)
-        Me.Controls.Add(Me.lblStatus)
-        Me.Controls.Add(Me.lblPass)
-        Me.Controls.Add(Me.lblUser)
+        Me.Controls.Add(Me.GroupBox1)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Login"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Login"
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
+        CType(Me.picUser, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
     Friend WithEvents lblUser As System.Windows.Forms.Label
@@ -137,4 +193,7 @@ Partial Class Login
     Friend WithEvents btnLogin As System.Windows.Forms.Button
     Friend WithEvents lblRole As System.Windows.Forms.Label
     Friend WithEvents cmbRole As System.Windows.Forms.ComboBox
+    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents picUser As PictureBox
+    Friend WithEvents btnClose As Button
 End Class

@@ -32,3 +32,23 @@ E:\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Resources.resources
 E:\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Splashscreen.resources
 E:\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Trainers.resources
 E:\GYM MANAGEMENT\GYM MANAGEMENT\obj\Debug\GYM MANAGEMENT.vbproj.GenerateResource.Cache
+C:\Users\R0053-1T\OneDrive\Documents\GitHub\gym-management\GYM MANAGEMENT\bin\Debug\GYM MANAGEMENT.exe.config
+C:\Users\R0053-1T\OneDrive\Documents\GitHub\gym-management\GYM MANAGEMENT\bin\Debug\GYM MANAGEMENT.exe
+C:\Users\R0053-1T\OneDrive\Documents\GitHub\gym-management\GYM MANAGEMENT\bin\Debug\GYM MANAGEMENT.pdb
+C:\Users\R0053-1T\OneDrive\Documents\GitHub\gym-management\GYM MANAGEMENT\bin\Debug\GYM MANAGEMENT.xml
+C:\Users\R0053-1T\OneDrive\Documents\GitHub\gym-management\GYM MANAGEMENT\obj\Debug\GYM MANAGEMENT.vbproj.AssemblyReference.cache
+C:\Users\R0053-1T\OneDrive\Documents\GitHub\gym-management\GYM MANAGEMENT\obj\Debug\GYM MANAGEMENT.exe.config
+C:\Users\R0053-1T\OneDrive\Documents\GitHub\gym-management\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Classes.resources
+C:\Users\R0053-1T\OneDrive\Documents\GitHub\gym-management\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Equipment.resources
+C:\Users\R0053-1T\OneDrive\Documents\GitHub\gym-management\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Subscriptions.resources
+C:\Users\R0053-1T\OneDrive\Documents\GitHub\gym-management\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.General.resources
+C:\Users\R0053-1T\OneDrive\Documents\GitHub\gym-management\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Login.resources
+C:\Users\R0053-1T\OneDrive\Documents\GitHub\gym-management\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Members.resources
+C:\Users\R0053-1T\OneDrive\Documents\GitHub\gym-management\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Resources.resources
+C:\Users\R0053-1T\OneDrive\Documents\GitHub\gym-management\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Splashscreen.resources
+C:\Users\R0053-1T\OneDrive\Documents\GitHub\gym-management\GYM MANAGEMENT\obj\Debug\GYM_MANAGEMENT.Trainers.resources
+C:\Users\R0053-1T\OneDrive\Documents\GitHub\gym-management\GYM MANAGEMENT\obj\Debug\GYM MANAGEMENT.vbproj.GenerateResource.cache
+C:\Users\R0053-1T\OneDrive\Documents\GitHub\gym-management\GYM MANAGEMENT\obj\Debug\GYM MANAGEMENT.vbproj.CoreCompileInputs.cache
+C:\Users\R0053-1T\OneDrive\Documents\GitHub\gym-management\GYM MANAGEMENT\obj\Debug\GYM MANAGEMENT.exe
+C:\Users\R0053-1T\OneDrive\Documents\GitHub\gym-management\GYM MANAGEMENT\obj\Debug\GYM MANAGEMENT.xml
+C:\Users\R0053-1T\OneDrive\Documents\GitHub\gym-management\GYM MANAGEMENT\obj\Debug\GYM MANAGEMENT.pdb

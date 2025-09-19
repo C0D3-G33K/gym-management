@@ -11,7 +11,8 @@
     <AssemblyName>GYM MANAGEMENT</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -47,6 +48,9 @@
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Iconshow-Medical-Muscles.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -114,6 +118,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -200,6 +205,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Admin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Staff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dummy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Iconshow-Medical-Muscles.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

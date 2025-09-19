@@ -3,41 +3,64 @@ Imports System.Data.OleDb
 Public Class Login
     Dim con As New OleDb.OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Users\USER\Documents\PROJECT.mdb")
     Private Sub btnLogin_Click(sender As Object, e As EventArgs) Handles btnLogin.Click
-        Try
-            con.Open()
-            Dim cmd As New OleDbCommand("SELECT * FROM PROJECT WHERE Username=? AND Password=? AND Role=?", con)
-            cmd.Parameters.AddWithValue("?", txtUsername.Text)
-            cmd.Parameters.AddWithValue("?", txtPassword.Text)
-            cmd.Parameters.AddWithValue("?", cmbRole.Text)
+        If txtUsername.Text = "" Then
+            lblStatus.Text = "Invalid username! Please provide it"
+            txtUsername.Focus()
+            Exit Sub
+        ElseIf txtPassword.Text = "" Then
+            lblStatus.Text = "Invalid password!"
+            txtPassword.Focus()
+            Exit Sub
+        ElseIf cmbRole.SelectedIndex = -1 Then
+            lblStatus.Text = "Invalid user role!"
+            cmbRole.Focus()
+            Exit Sub
+        Else
+            Try
+                con.Open()
+                Dim cmd As New OleDbCommand("SELECT * FROM PROJECT WHERE Username=? AND Password=? AND Role=?", con)
+                cmd.Parameters.AddWithValue("?", txtUsername.Text)
+                cmd.Parameters.AddWithValue("?", txtPassword.Text)
+                cmd.Parameters.AddWithValue("?", cmbRole.Text)
 
-            Dim reader As OleDbDataReader = cmd.ExecuteReader()
+                Dim reader As OleDbDataReader = cmd.ExecuteReader()
 
-            If reader.Read() Then
-                MsgBox("Login successful as " & cmbRole.Text)
-                General.Show()
-                Me.Hide()
-            Else
-                MsgBox("Invalid login credentials or role.")
-            End If
-            con.Close()
-        Catch ex As Exception
-            MsgBox("Error: " & ex.Message)
-            con.Close()
-        End Try
-
+                If reader.Read() Then
+                    MsgBox("Login successful as " & cmbRole.Text)
+                    General.Show()
+                    Me.Hide()
+                Else
+                    MsgBox("Invalid login credentials or role.")
+                End If
+                con.Close()
+            Catch ex As Exception
+                MsgBox("Error: " & ex.Message)
+                con.Close()
+            End Try
+        End If
     End Sub
     Private Sub Login_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         cmbRole.Items.Clear()
         cmbRole.Items.Add("Admin")
         cmbRole.Items.Add("Staff")
-        cmbRole.SelectedIndex = 0 ' Default selection
+        cmbRole.SelectedIndex = -1 ' Default selection
     End Sub
 
-    Private Sub lblUser_Click(sender As Object, e As EventArgs) Handles lblUser.Click
-
+    Private Sub cmbRole_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cmbRole.SelectedIndexChanged
+        If cmbRole.SelectedItem.ToString = "Admin" Then
+            picUser.Image = My.Resources.Admin
+        ElseIf cmbRole.SelectedItem.ToString = "Staff" Then
+            picUser.Image = My.Resources.Staff
+        Else
+            picUser.Image = My.Resources.Dummy
+        End If
     End Sub
 
-    Private Sub txtPassword_TextChanged(sender As Object, e As EventArgs) Handles txtPassword.TextChanged
+    Private Sub btnClose_Click(sender As Object, e As EventArgs) Handles btnClose.Click
+        Application.Exit()
+    End Sub
 
+    Private Sub Login_FormClosed(sender As Object, e As FormClosedEventArgs) Handles Me.FormClosed
+        Application.Exit()
     End Sub
 End Class
